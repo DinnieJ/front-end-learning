@@ -2,72 +2,7 @@
 body{
     background-color: #00cdcd;
 }
-/* .amargin{
-  display: inline-block;
-  margin-right: 50px;
-}
-.bmargin{
-  display: inline-block;
-  margin-left: 30px;
-}
 
-.link{
-    color:red;
-}
-
-.link:hover {
-    color: yellowgreen;
-}
-
-.link:visited{
-    color: pink;
-} */
-
-
-.flex-wrapper{
-    background: #00cc00;
-      /* display: -webkit-box;  */
-      /* display: -moz-box; */
-      /* display: -ms-flexbox; */
-      /* display: -webkit-flex;  */
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding: 30px;
-}
-
-/* .box{
-    padding:30px;
-    background-color: yellow;
-    width:200px
-}
-
-.father{
-    display: inline-block;
-}
-
-.son {
-    display: inline-block;
-    padding: 10px;
-    background: yellow;
-    
-} */
-
-.son:not(:first-child){
-    margin-left: -4px;
-}
-
-
-
-.collapse-stuff{
-    overflow: auto;
-    height: 30px;
-}
-
-.collapse-son{
-    height: 50px;
-    background: aqua;
-}
 
 /********************** Dropdown nav ***************/
 .nav{
